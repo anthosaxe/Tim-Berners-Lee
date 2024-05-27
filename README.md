@@ -1,5 +1,5 @@
 # This repository contains a reprodution of a web page about Tim Berners Lee :
-<img src="images/timBernersLeeMockupDesktop.png" width="200px">
+<img src="images/timBernersLeeMockupDesktop.png" width="400px">
 
 # And the page have to be responsive :
 <img src="images/timBernersLeeMockupMobile1.png" width="200px"> 
