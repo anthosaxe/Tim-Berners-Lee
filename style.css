@@ -5,10 +5,10 @@ body {
 
 #logo {
     justify-content: flex-start;
-    justify-items: center;
-    align-items: center;
-    margin: 10px 10px 10px 10px;
-    padding-top: 0px;
+    justify-items  : center;
+    align-items    : center;
+    margin         : 10px 10px 10px 10px;
+    padding-top    : 0px;
 }
 
 #navbar a {
@@ -60,7 +60,7 @@ ul li {
 
 .subscribe {
     border-radius   : 10px;
-    background-color: rgba(167,22,0,255);
+    background-color: rgba(167, 22, 0, 255);
     color           : white;
     margin-right    : 20px;
 }
@@ -74,33 +74,31 @@ select {
     color           : white;
 }
 
-
-
 #page {
     background-color: white;
     border-left     : solid 1px rgba(238, 238, 238, 255);
     padding-left    : 10 px;
     margin-left     : 20px;
-    margin-bottom: 20px;
+    margin-bottom   : 20px;
 }
 
 #top-p {
     display       : flex;
     flex-direction: row;
-    margin-left: 0px;
-    padding-left: 0px;
+    margin-left   : 0px;
+    padding-left  : 0px;
 }
 
 #top-p a {
     text-decoration: none;
 }
 
-#chemin{
+#chemin {
     font-size: 14px;
 }
 
-#chemin li{
-    margin: 0 5px auto 0px;
+#chemin li {
+    margin      : 0 5px auto 0px;
     padding-left: 0%;
 }
 
@@ -129,13 +127,13 @@ select {
     font-size      : 15px;
     margin-right   : 10px;
     padding        : 10px;
-    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family    : Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #button-art {
     display       : flex;
     flex-direction: row;
-    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family   : Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .no-deco {
@@ -149,91 +147,363 @@ select {
 }
 
 h1 {
-    font-size: 25px;
-    padding  : 0;
-    margin   : 20px 0px 10px 0px;
+    font-size  : 25px;
+    padding    : 0;
+    margin     : 20px 0px 10px 0px;
     font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 h2 {
-    font-size: 20px;
-    padding  : 0;
-    margin   : 10px 0;
+    font-size  : 20px;
+    padding    : 0;
+    margin     : 10px 0;
     font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.credit{
+.credit {
     text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    display        : flex;
+    flex-direction : row;
+    font-size      : 12px;
+    font-family    : Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
-#contenu{
-    margin-top: 20px;
-    font-family: Georgia ;
+#contenu {
+    margin-top  : 20px;
+    font-family : Georgia;
     margin-right: 10px;
 }
 
-#contenu a{
+#contenu a {
     text-decoration: none;
 }
 
-#contenu #credited{
+#contenu #credited {
     text-decoration: underline dotted;
 }
 
-#art-l{
+#art-l {
     width: 60%;
 }
 
-#art-r{
-    border: 1px solid rgba(238, 238, 238, 255);
-    width: 40%;
-    margin-top: 200px;
-    margin-right: 10px;
-    display: flex;
+#art-r {
+    border        : 1px solid rgba(238, 238, 238, 255);
+    width         : 40%;
+    margin-top    : 200px;
+    margin-right  : 10px;
+    display       : flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    align-items: center;
-    justify-items: center;
-    font-family: Georgia ;
+    margin-bottom : 20px;
+    align-items   : center;
+    justify-items : center;
+    font-family   : Georgia;
 }
 
-#art-r img{
-    width: 80%;
+#art-r img {
+    width     : 80%;
     margin-top: 20px;
 }
 
-#img-desc{
-    font-size: 12px;
+#img-desc {
+    font-size    : 12px;
     margin-bottom: 10px;
 }
 
-#art-r a{
+#art-r a {
     text-decoration: none;
 }
 
-#sub-img{
-    padding: auto 10px;
-    padding-bottom: 10px ;
+#sub-img {
+    padding       : auto 10px;
+    padding-bottom: 10px;
 }
 
-#tim-info{
-    border-top: 2px solid rgba(238, 238, 238, 255);
+#tim-info {
+    border-top : 2px solid rgba(238, 238, 238, 255);
     padding-top: 10px;
-    font-size: 12px;
+    font-size  : 12px;
     margin-left: 10px;
 }
 
-#related{
+#related {
     border-radius: 10px;
-    background: transparent;
-    margin: 0px 20px 20px 10px;
+    background   : transparent;
+    margin       : 0px 20px 20px 10px;
 }
 
-#related svg{
+#related svg {
     width: 3%;
+}
+
+@media (max-width : 767px) {
+    body {
+        margin : 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    #logo {
+        justify-content: flex-start;
+        justify-items  : center;
+        align-items    : center;
+        margin         : 10px 10px 10px 10px;
+        padding-top    : 0px;
+    }
+
+
+
+    #navbar a {
+        text-decoration: none;
+        color          : white;
+    }
+
+    #navbar {
+        display         : flex;
+        flex-direction  : row;
+        color           : white;
+        background-color: rgba(3, 24, 46, 255);
+        margin          : 0px 20%;
+    }
+
+    .nav-icon {
+        fill  : white;
+        width : 15px;
+        height: 15px;
+    }
+
+    #top-l {
+        display       : flex;
+        flex-direction: row;
+        width         : 80%;
+    }
+
+    #top-r {
+        display        : flex;
+        justify-content: flex-end;
+        width          : 20%;
+    }
+
+    nav ul {
+        display        : flex;
+        flex-direction : row;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+
+    #item-browse {
+        order: 1; /* Change order as needed */
+    }
+    
+    #item-search {
+        order: 2; /* Change order as needed */
+    }
+    
+    #item-dictionary {
+        order: 2; /* Change order as needed */
+        display: none;
+    }
+    
+    #item-quizzes {
+        order: 4; /* Change order as needed */
+        display: none;
+    }
+    
+    #item-money {
+        order: 5; /* Change order as needed */
+        display: none;
+    }
+
+    #logo{
+        order: 3;
+    }
+
+    ul li {
+        margin-right: 30px;
+    }
+
+    #top-r {
+        display        : flex;
+        justify-content: flex-end;
+        margin         : 10px 10px;
+    }
+
+    .subscribe {
+        border-radius   : 10px;
+        background-color: rgba(167, 22, 0, 255);
+        color           : white;
+        margin-right    : 20px;
+    }
+
+    label {
+        margin: 5px 10px auto 0px;
+    }
+
+    select {
+        background-color: transparent;
+        color           : white;
+    }
+
+
+
+    #page {
+        background-color: white;
+        border-left     : solid 1px rgba(238, 238, 238, 255);
+        padding-left    : 10 px;
+        margin: 0px 20%;
+    }
+
+    #top-p {
+        display       : flex;
+        flex-direction: row;
+        margin-left   : 0px;
+        padding-left  : 0px;
+    }
+
+    #top-p a {
+        text-decoration: none;
+    }
+
+    #chemin {
+        font-size: 14px;
+    }
+
+    #chemin li {
+        margin      : 0 5px auto 0px;
+        padding-left: 0%;
+    }
+
+    #art-container {
+        display       : flex;
+        flex-direction: row;
+        border        : 1px solid rgba(238, 238, 238, 255);
+        margin-left   : 20px;
+        width         : 40%;
+    }
+
+    #art-l {
+        margin-left: 20px;
+    }
+
+    #button-art a {
+        display        : flex;
+        text-decoration: none;
+        border-radius  : 10px;
+        border-color   : rgba(52, 114, 192, 255);
+        border         : #dddddd 1px solid;
+        border-radius  : 10px;
+        fill           : #13599d;
+        text-decoration: none;
+        color          : #13599d;
+        font-size      : 15px;
+        margin-right   : 10px;
+        padding        : 10px;
+        font-family    : Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #button-art {
+        display       : flex;
+        flex-direction: row;
+        font-family   : Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .no-deco {
+        text-decoration: none;
+    }
+
+    .grey-style {
+        color     : rgba(178, 192, 198, 255);
+        font-style: italic;
+        font-size : 12px;
+    }
+
+    h1 {
+        font-size  : 25px;
+        padding    : 0;
+        margin     : 20px 0px 10px 0px;
+        font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    h2 {
+        font-size  : 20px;
+        padding    : 0;
+        margin     : 10px 0;
+        font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .credit {
+        text-decoration: none;
+        display        : flex;
+        flex-direction : row;
+        font-size      : 12px;
+        font-family    : Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+
+    #contenu {
+        margin-top  : 20px;
+        font-family : Georgia;
+        margin-right: 10px;
+    }
+
+    #contenu a {
+        text-decoration: none;
+    }
+
+    #contenu #credited {
+        text-decoration: underline dotted;
+    }
+
+    #art-l {
+        width: 60%;
+    }
+
+    #art-r {
+        border        : 1px solid rgba(238, 238, 238, 255);
+        width         : 40%;
+        margin-top    : 200px;
+        margin-right  : 10px;
+        display       : flex;
+        flex-direction: column;
+        margin-bottom : 20px;
+        align-items   : center;
+        justify-items : center;
+        font-family   : Georgia;
+    }
+
+    #art-r img {
+        width     : 80%;
+        margin-top: 20px;
+    }
+
+    #img-desc {
+        font-size    : 12px;
+        margin-bottom: 10px;
+    }
+
+    #art-r a {
+        text-decoration: none;
+    }
+
+    #sub-img {
+        padding       : auto 10px;
+        padding-bottom: 10px;
+    }
+
+    #tim-info {
+        border-top : 2px solid rgba(238, 238, 238, 255);
+        padding-top: 10px;
+        font-size  : 12px;
+        margin-left: 10px;
+    }
+
+    #related {
+        border-radius: 10px;
+        background   : transparent;
+        margin       : 0px 20px 20px 10px;
+    }
+
+    #related svg {
+        width: 3%;
+    }
 }

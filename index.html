@@ -14,19 +14,19 @@
             <img id="logo" src="images/britannica.PNG" alt="logo">
             <nav>
                 <ul>
-                    <li> <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg"
+                    <li class="nav-item" id="item-browse"> <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path
                                 d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
                         </svg> <a href="#">Browse</a></li>
-                    <li> <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg"
+                    <li class="nav-item" id="item-search"> <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path
                                 d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
                         </svg> <a href="#">Search</a></li>
-                    <li><a href="#">Dictionnary</a></li>
-                    <li><a href="#">Quizzes</a></li>
-                    <li><a href="#">Money</a></li>
+                    <li class="nav-item" id="item-dictionary"><a href="#">Dictionnary</a></li>
+                    <li class="nav-item" id="item-quizzes"><a href="#">Quizzes</a></li>
+                    <li class="nav-item" id="item-money"><a href="#">Money</a></li>
                 </ul>
             </nav>
         </section>
@@ -139,12 +139,13 @@
                 </article>
             </section>
             <article id="art-r">
-                <img src="https://cdn.britannica.com/22/221822-050-3B0A657F/British-scientist-Tim-Berners-Lee.jpg?w=400&h=300&c=crop" alt="">
+                <img src="https://cdn.britannica.com/22/221822-050-3B0A657F/British-scientist-Tim-Berners-Lee.jpg?w=400&h=300&c=crop"
+                    alt="">
                 <article id="img-desc">
                     Tim Berners-Lee
                 </article>
                 <article id="sub-img">
-                    <a href="#">See all media</a> 
+                    <a href="#">See all media</a>
                 </article>
                 <article id="tim-info">
                     <strong>Born: </strong>June 8, 1955 (age 67) • <a href="#">London</a> • <a href="#">England</a>
@@ -154,7 +155,12 @@
                     <strong>Inventions: </strong><a href="#">World Wide Web</a><a href="#">World Wide Web</a>
                     <br><br>
                     <button id="related">
-                        <a href="#"> <strong>See all related content</strong> </a>  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                        <a href="#"> <strong>See all related content</strong> </a> <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                        </svg>
                     </button>
                 </article>
             </article>
