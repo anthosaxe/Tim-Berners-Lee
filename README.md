@@ -9,6 +9,8 @@
 [Tim-Berners-Lee](https://anthosaxe.github.io/Tim-Berners-Lee/)<br>
 <img src="images/My_repro_web.PNG" width="400px"> 
 
-## Note
-1. few problems with responsive due to a bad management with the web boxes
-2. bad use of id/class, seen when starting with responsive
+## futur improvement
+1. few problems with responsive due to a bad management with the flexbox concept. have to make a "plan" of section/article before coding to manage it beter.
+2. bad use of id/class, seen when starting with responsive.
+3. beter start with mobile next time.
+4. too much css line, lots of repeat.

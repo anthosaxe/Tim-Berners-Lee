@@ -467,7 +467,7 @@ h2 {
 
     #sub-mob{
         display: flex;
-        flex-direction: column;
+        width: 80%;
     }
 
     #sub-mob a{
@@ -499,10 +499,6 @@ h2 {
         margin-right: 55px;
     }
 
-    #contenu a {
-        text-decoration: none;
-    }
-
     #contenu #credited {
         text-decoration: underline dotted;
     }
@@ -520,21 +516,7 @@ h2 {
     }
 
     #art-r {
-        border: none;
-        width         : 80%;
-        margin-top    : 200px;
-        margin-right  : 10px;
-        display       : flex;
-        flex-direction: column;
-        margin-bottom : 20px;
-        align-items   : center;
-        justify-items : center;
-        font-family   : Georgia;
-    }
-
-    #art-r img {
-        width     : 80%;
-        margin-top: 20px;
+        display: none;
     }
 
     #img-desc {
@@ -542,29 +524,72 @@ h2 {
         margin-bottom: 10px;
     }
 
-    #art-r a {
-        text-decoration: none;
-    }
-
     #sub-img {
         padding       : auto 10px;
         padding-bottom: 10px;
+        
     }
 
-    #tim-info {
-        border-top : 2px solid rgba(238, 238, 238, 255);
-        padding-top: 10px;
-        font-size  : 12px;
-        margin-left: 10px;
+    #im-mob img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
     }
 
-    #related {
+    #im-mob{
+        border     : solid 1px rgba(238, 238, 238, 255);
+        width         : 80%;
+        margin-right  : 10px;
+        margin-top: 10px;
+        display       : flex;
+        flex-direction: column;
+        margin-bottom : 20px;
+        align-items   : center;
+        justify-items : center;
+        font-family   : Georgia;
+        padding-top: 20px;
+    }
+
+    #tim-style{
+        display: flex;
+        flex-direction: column;
+        border     : solid 1px rgba(238, 238, 238, 255);
+        padding: 10px 10px 10px 20px;
+        margin: 10px;
         border-radius: 10px;
-        background   : transparent;
-        margin       : 0px 20px 20px 10px;
+        justify-content: center;
+        align-items: center;
     }
 
-    #related svg {
-        width: 3%;
+    #sub-img-res {
+        text-align: center;
+        margin: auto 10px;
+    }
+
+    #sub-img-res a{
+        text-decoration: none;
+    }
+
+    #desc-resp button{
+        border-radius: 10px;
+        border: none;
+        background-color: beige;
+    }
+
+    #desc-resp{
+        border-top: solid 1px rgba(238, 238, 238, 255);
+        margin: auto 10px;
+    }
+
+    #contenu a{
+        text-decoration: solid;
+    }
+
+    #but-sc{
+        display: block;
+        border-radius: 10px;
+        border: none;
+        background-color: beige;
     }
 }
