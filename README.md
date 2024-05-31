@@ -1,3 +1,5 @@
+# ATTENTION this is the 1.0 version, 2.0 there [Tim Berners-Lee 2.0](https://github.com/anthosaxe/Tim-Berners-Lee-2.0/tree/main)
+
 # This repository contains a reprodution of a web page about Tim Berners Lee :
 <img src="images/timBernersLeeMockupDesktop.png" width="600px">
 
